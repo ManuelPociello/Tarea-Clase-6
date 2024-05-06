@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contacto</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="Lista-de-body">
+   <header class="Lista-de-header">
+      <h1>Mi primera pagina</h1>
+      <nav>
+          <ul class="Lista-de-navegación">
+              <li class="Lista-de-barra-de-navegación"><a href="./index.html">Inicio</a></li>
+              <li class="Lista-de-barra-de-navegación"><a href="./Contacto.html">Contacto</a></li>
+              <li class="Lista-de-barra-de-navegación"><a href="./Horarios.html">Horarios de atencion</a></li>
+              <li class="Lista-de-barra-de-navegación"><a href="./Politicas_de_privasidad.html">Politicas de privasidad</a></li>
+              <li class="Lista-de-barra-de-navegación">Ayuda</li>
+          </ul>
+      </nav>
+  </header>
+   <main class="Lista-de-main-Contacto">
+      <section>
+         <form action="">
+            <div>
+               <label for="nombre">Nombre:</label>
+               <input type="text" id="nombre" name="campo_de_nombre">
+            </div>
+            <div>
+               <label for="apellido">Apellido:</label>
+               <input type="text" id="apellido" name="campo_de_apellido">
+            </div>
+            <div>
+               <label for="nacimiento">Fecha de nacimiento:</label>
+               <input type="date" id="nacimiento" name="campo_de_fecha_de_nacimiento">
+            </div>
+            <div>
+               <label for="pais">Seleccione su pais:</label>
+               <select name="campo_de_pais" id="pais">
+                  <option value="AR">Argentina</option>
+                  <option value="ME">Mexico</option>
+                  <option value="BR">Brasil</option>
+                  <option value="PE">Peru</option>
+                  <option value="BO">Bolivia</option>
+                  <option value="CH">Chile</option>
+               </select>
+            </div>
+            <div>
+               <label for="campo_de_sexo">Indique su genero:</label>
+               <br>
+               Masculino
+               <input type="radio" name="campo_de_sexo" value="Masculino">
+               <br>
+               Femenino
+               <input type="radio" name="campo_de_sexo" value="Femenino">
+               <br>
+               Otro
+               <input type="radio" name="campo_de_sexo" value="Otro">
+            </div>
+            <div>
+               <label for="DNI">DNI:</label>
+               <input type="number" id="DNI" name="campo_de_DNI">
+            </div>
+            <div>
+               <label for="telefono">Numero de telefono:</label>
+               <input type="number" id="telefono" name="campo_de_numero_de_telefono">
+            </div>
+            <div>
+               <label for="email">Correo electronico:</label>
+               <input type="email" id="email" name="campo_de_email">
+            </div>
+            <div>
+               <label for="campo_de_politicas_de_privasidad"><a href="Politicas_de_privasidad.html">Politicas de
+                     privasidad</a></label>
+               <input type="checkbox" name="campo_de_politicas_de_privasidad">
+            </div>
+            <div>
+               <label for="comentario">Puedes dejar un comentario:</label>
+               <br>
+               <textarea name="campo_de_comentario" id="comentario" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+               <input type="reset">
+               <input type="submit">
+            </div>
+         </form>
+      </section>
+   </main>
+   <footer class="Lista-de-footer">
+      <p>Esta pagina fue creada y pertenence a Manuel Pociello</p>
+   </footer>
+</body>
+
+</html>
